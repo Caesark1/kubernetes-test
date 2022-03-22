@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    image: blog-k8s-caesar:v1
